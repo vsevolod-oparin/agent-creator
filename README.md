@@ -14,10 +14,34 @@ This plugin gives you two tools:
 
 ## Installation
 
-Local install from path:
+**Local development** (load for a single session):
 ```bash
-claude plugin install /path/to/agent-creator
+claude --plugin-dir /path/to/agent-creator
 ```
+
+**From a GitHub repo** (permanent):
+```bash
+# 1. Add the marketplace (one-time)
+/plugin marketplace add owner/agent-creator
+
+# 2. Install the plugin
+/plugin install agent-creator@agent-creator-marketplace
+```
+
+**From a local directory** (permanent):
+```bash
+# 1. Add as local marketplace (one-time)
+/plugin marketplace add /path/to/agent-creator
+
+# 2. Install the plugin
+/plugin install agent-creator@agent-creator-marketplace
+```
+
+## Usage
+
+Once loaded, the skill and command are namespaced:
+- Skill: triggered automatically when you ask to create or improve an agent
+- Command: `/agent-creator:audit-agent`
 
 ## What's inside
 
