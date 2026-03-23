@@ -31,6 +31,12 @@ claude --plugin-dir /path/to/agent-creator
 /reload-plugins
 ```
 
+**Uninstall:**
+```bash
+/plugin uninstall agent-creator@agent-creator-marketplace
+/plugin marketplace remove agent-creator-marketplace
+```
+
 ## Usage
 
 Once loaded, the skill and command are namespaced:
