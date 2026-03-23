@@ -1,0 +1,8 @@
+{
+  "name": "agent-creator",
+  "description": "Create, evaluate, and improve Claude Code agent descriptions (.claude/agents/*.md). Use when users want to create a new agent, improve an existing one, audit agent quality, or benchmark agent versions against each other.",
+  "author": {
+    "name": "Vsevolod Oparin",
+    "email": "oparin.vsevolod@gmail.com"
+  }
+}
