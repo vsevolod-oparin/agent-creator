@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "agent-creator",
-      "source": ".",
+      "source": "./",
       "description": "Create, evaluate, and improve Claude Code agent descriptions (.claude/agents/*.md).",
       "version": "1.0.0"
     }
