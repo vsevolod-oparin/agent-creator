@@ -1,0 +1,18 @@
+{
+  "name": "agent-creator-marketplace",
+  "owner": {
+    "name": "Vsevolod Oparin",
+    "email": "oparin.vsevolod@gmail.com"
+  },
+  "metadata": {
+    "description": "Plugin for creating and improving Claude Code agent descriptions"
+  },
+  "plugins": [
+    {
+      "name": "agent-creator",
+      "source": ".",
+      "description": "Create, evaluate, and improve Claude Code agent descriptions (.claude/agents/*.md).",
+      "version": "1.0.0"
+    }
+  ]
+}
