@@ -1,4 +1,4 @@
-# agent-creator
+# Agent Creator
 
 A Claude Code plugin for creating, evaluating, and improving agent descriptions (`.claude/agents/*.md` files).
 
