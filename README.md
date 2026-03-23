@@ -19,22 +19,16 @@ This plugin gives you two tools:
 claude --plugin-dir /path/to/agent-creator
 ```
 
-**From a GitHub repo** (permanent):
+**From GitHub** (permanent):
 ```bash
 # 1. Add the marketplace (one-time)
-/plugin marketplace add owner/agent-creator
+/plugin marketplace add vsevolod-oparin/agent-creator
 
 # 2. Install the plugin
 /plugin install agent-creator@agent-creator-marketplace
-```
 
-**From a local directory** (permanent):
-```bash
-# 1. Add as local marketplace (one-time)
-/plugin marketplace add /path/to/agent-creator
-
-# 2. Install the plugin
-/plugin install agent-creator@agent-creator-marketplace
+# 3. Activate (required after install)
+/reload-plugins
 ```
 
 ## Usage
